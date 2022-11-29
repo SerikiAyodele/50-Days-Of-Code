@@ -12,9 +12,10 @@ Things to Know in python.
 → Time Complexity
 
 
-## what is Big-O
+## What is Big-O
 It's the time it takes for an algorithm to execute as the input size of the algorithm grows
 
+![1](img/1.png)
 
 ## O(1) -Constant growth
 No matter the size of the input or how much it grows the time complexity of O(1) time algorithms is always the same, these are the most efficient algorithms
