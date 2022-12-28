@@ -35,3 +35,5 @@ class Solution:
         if rowZero:
             for c in range(COLS):
                 matrix[0][c] = 0
+
+#medium
