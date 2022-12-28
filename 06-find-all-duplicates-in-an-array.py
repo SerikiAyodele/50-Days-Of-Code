@@ -14,3 +14,5 @@ class Solution:
                 ans.append(i)
             s.add(i)
         return ans
+
+#medium

@@ -21,3 +21,5 @@ class Solution:
             postfix *= nums[i]
 
         return res
+
+#medium
