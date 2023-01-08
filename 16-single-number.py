@@ -10,5 +10,4 @@ class Solution:
            res = n^res
        return res
 
-       mysql -h 172.31.1.191 -u tooling < tooling-db.sql
 
