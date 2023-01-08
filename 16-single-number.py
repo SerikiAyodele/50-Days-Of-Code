@@ -9,3 +9,6 @@ class Solution:
        for n in nums:
            res = n^res
        return res
+
+       mysql -h 172.31.1.191 -u tooling < tooling-db.sql
+
