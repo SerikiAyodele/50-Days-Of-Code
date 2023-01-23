@@ -1,7 +1,11 @@
-adj = input("adjective:")
-verb1 = input("verb1:")
-verb2 = input("verb2:")
-famous_person = input("famous_person:")
+class Solution:
+    def maxSubArray(self, nums: List[int]) -> int:
+        maxSub = nums[0]
+        curSum = 0
 
-madlib = f"computer programing is so {adj}! It makes me so excited all the time because \
-          I love to {verb1}. Stay hydrated and  {verb2} like you are {famous_person}"
+        for n in nums:
+            if curSum < 0:
+                curSum = 0
+            curSum += n
+            maxSub = max(maxSub,curSum)
+        return maxSub
