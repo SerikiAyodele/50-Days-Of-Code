@@ -11,6 +11,7 @@ def mergeStrings(word1: str, word2: str) -> str:
         merged += word1[ptr1:]
     elif len(word2) > len(word1):
         merged += word1[ptr2:]
-
     return merged
+
+
 
