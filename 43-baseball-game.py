@@ -3,9 +3,7 @@ class Solution:
         stack = []
 
         for i in operations:
-            if i == int:
-                stack.append(i)
-            elif i == "+":
+            if i == "+":
                 stack.append(stack[-1] + stack[-2])
             elif i == "C":
                 stack.pop()
