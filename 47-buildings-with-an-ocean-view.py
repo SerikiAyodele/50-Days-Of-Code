@@ -10,3 +10,4 @@ class Solution:
             stack.append(heights[i])
             
         return res[::-1]
+    
