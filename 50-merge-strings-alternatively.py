@@ -13,3 +13,4 @@ def mergeStrings(word1: str, word2: str) -> str:
         merged += word1[ptr2:]
 
     return merged
+
