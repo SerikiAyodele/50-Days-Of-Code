@@ -15,3 +15,4 @@ def mergeStrings(word1: str, word2: str) -> str:
 
 
 
+
