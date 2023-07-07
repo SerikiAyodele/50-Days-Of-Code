@@ -5,7 +5,7 @@
 # A prefix of a string s is any leading contiguous substring of s.
 
 class Solution:
-    def prefixCount(self, words: List[str], pref: str) -> int:
+    def prefixCount(self, words: list[str], pref: str) -> int:
         count = 0
         for i in words:
             if i[:len(pref)] == pref:

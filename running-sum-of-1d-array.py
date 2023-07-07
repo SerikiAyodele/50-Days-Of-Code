@@ -7,3 +7,6 @@ class Solution:
             total += i
             hashtable.append(total)
         return hashtable
+    
+
+    

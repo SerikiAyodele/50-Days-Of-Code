@@ -1,5 +1,5 @@
 class Solution:
-    def arithmeticTriplets(self, nums: List[int], diff: int) -> int:
+    def arithmeticTriplets(self, nums: list[int], diff: int) -> int:
         n = len(nums)
         count = 0
         i, j, k = 0, 1, 2
